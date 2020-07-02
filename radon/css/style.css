@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* NAVIGATION  */
+
+header {
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.header_logo {
+    color: #fff;
+    text-transform: uppercase;
+    /* изменение регистра  */
+    font-weight: 800;
+    /* толщина текста */
+    font-size: 24px;
+    /*cursor: pointer;
+     изменение курсора */
+    margin-top: 45px;
+    margin-left: 5%;
+    padding-bottom: 16px;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #fcac45;
+    color: #fcac45;
+    transition: .25s;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/*  WELCOME  */
+
+.welcome {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 200px 0 400px 0;
+}
+
+.welcome .mycompany {
+    color: #fcac45;
+}
+
+.welcome p {
+    color: #999999;
+    font-weight: lighter;
+}
+
+.welcome h1:after {
+    display: none;
+}
+
+.welcome .welcometext {
+    color: #fff;
+}
+
+
+/* ABOUT */
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about_left {
+    pointer-events: none;
+    user-select: none;
+}
+
+.about_right {
+    margin-left: 175px;
+}
+
+.about_right h1 {
+    color: #000000;
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.about h1:after {
+    display: none;
+}
+
+.about_right p {
+    margin: 30px 0 20px 0;
+    color: #6c6c6c;
+}
+
+.about_right ul {
+    width: 100%;
+}
+
+.about_right li {
+    padding-top: 10px;
+}
+
+.info_li {
+    font-style: italic;
+}
+
+.mw-100 {
+    min-width: 100%;
+}
+
+
+/* OUR TEAM */
+
+.team {
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    padding: 100px 0 165px 0;
+}
+
+.team h1 {
+    font-size: 44px;
+    font-weight: bolder;
+    padding-bottom: 31px;
+}
+
+/*
+.line {
+    width: 100px;
+    height: 4px;
+    background: #fcac45;
+    position: relative;
+    left: 46.5%;
+    margin-bottom: 105px;
+}
+*/
+
+.photo {
+    background: #d7d7d7;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.team_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 40px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.team_pos {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about_position {
+    font-size: 14px;
+}
+
+/* OUR SERVICES */
+
+.services {
+    text-align: center;
+}
+
+.services_cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
+}
+
+.services h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 100px 0 30px 0;
+}
+
+.services p {
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+
+.services_card img {
+    margin-bottom: 30px;
+}
+
+.services_card h4 {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.services_card p {
+    font-size: 14px;
+}
+
+/* OUR CLIENTS */
+
+.main_clients {
+    color: #fff;
+    background: #000;
+    padding: 100px 0 205px 0;
+    text-align: center;
+}
+
+.main_clients h1{
+    font-weight: normal;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.main_clients .span_clients {
+    font-weight: bold;
+}
+
+.main_clients img {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+/* GALLERY */
+
+.main_work {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.main_work h1 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.main_work .span_work {
+    font-weight: bold;
+}
+
+#line_gallery {
+    margin-bottom: 60px;
+}
+
+.main_work p {
+    margin-bottom: 175px;
+    color: #6c6c6c;
+}
+
+.main_work img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main_work img:hover {
+    transition: .25s;
+    opacity: 0.85;
+}
+
+/* TESTIMONIALS */
+
+.main_testimonials {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 170px;
+}
+
+.main_testimonials h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 100px 0 30px 0;
+}
+
+.main_testimonials .span_testimonials {
+    font-weight: bold;
+}
+
+.main_testimonials .span_testimonials2 {
+    color: #b2b2b2;
+}
+
+.main_testimonials .testimonials{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.main_testimonials p {
+    color: #e7e7e7;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* CONTACTS */
+
+.contact_form {
+    padding: 100px 0 100px 0;
+}
+
+.contact_wrapper {
+    width: 753px;
+    margin: 0 auto;
+    color: #636363;
+}
+
+.contact_form h1{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact_form p:first {
+    color: #6c6c6c;
+    text-align: center;
+    font-size: 16px;
+}
+
+.red {
+    color: red;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+}
+
+input:first-of-type {
+    margin-right: 23px;
+}
+
+.form_input {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form p {
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    height: 163px;
+}
+
+input, textarea {
+    border: 1px solid #999999;
+    margin-top: 5px;
+}
+
+.button_block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type=submit] {
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    color: #fff;
+    border: 0px;
+    margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img:hover {
+    opacity: 0.6;
+    transition: 0.25s;
+}
+
+.social img {
+    margin-left: 12px;
+}
+
+/* LINE */
+
+h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
+
+/* Коррекция панели навигации */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 1550px) {
+    nav {
+        margin-left: 25%;
+    }
+
+    .line1 img:last-child{
+        display: none;
+    }
+
+    .line2 img:last-child{
+        display: none;
+    }
+
+    .line3 img:last-child{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        margin-left: 15%;
+    }
+
+    .line1 img:not(:first-child) {
+        display: none;
+    }
+
+    .line2 img:not(:first-child) {
+        display: none;
+    }
+
+    .line3 img:not(:first-child) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1010px) {
+    /*     */
+    nav {
+        width: 100%;
+    }
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        margin-right: 17px;
+        display: block;
+        color: white;
+        font-size: 24px;
+    }
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive {
+        height: 311px;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    /*     */
+    main .welcome {
+        padding: 250px 0;
+    }
+    main .welcome p {
+        font-size: 20px;
+    }
+    main .welcome h1 {
+        font-size: 32px;
+    }
+    /*     */
+    main .about {
+        flex-direction: column;
+    }
+    .mw-100 {
+        max-width: 100%;
+    }
+    main .about_right {
+        margin-left: 0;
+        padding-top: 25px;
+        text-align: center;
+    }
+    main .about_right h1 {
+        font-size: 30px;
+    }
+    main .about_right li {
+        text-align: left;
+    }
+    /*     */
+    .team h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .team_cards {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 90px;
+    }
+    .photo {
+        height: 100px;
+        width: 100px;
+    }
+    .name {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .team_pos {
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .about_position {
+        font-size: 12px;
+    }
+
+    /*     */
+
+    .services_cards {
+        grid-template-columns: auto;
+    }
+
+    .services h1 {
+        font-size: 35px;
+        padding-bottom: 31px;
+        margin-bottom: 40px;
+    }
+
+    /*     */
+
+
+}
